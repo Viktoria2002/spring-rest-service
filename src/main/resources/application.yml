@@ -1,0 +1,9 @@
+datasource:
+  datasource.driver: org.postgresql.Driver
+  datasource.url: jdbc:postgresql://localhost:5432/rest_service?currentSchema=shop
+  datasource.username: postgres
+  datasource.password: root1234
+hibernate:
+  hibernate.hbm2ddl.auto: update
+  hibernate.show-sql: true
+  hibernate.dialect: org.hibernate.dialect.PostgreSQL10Dialect
